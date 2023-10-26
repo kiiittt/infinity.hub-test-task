@@ -1,3 +1,35 @@
+.countdown-title {
+    margin-bottom: 0;
+  font-weight: 600;
+  font-size: 30px;
+align-self: center;}
+
+.countdown {
+  font-family: sans-serif;
+  color: red;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+ 
+.countdown-number {
+  padding: 20px 0px;
+  border-radius: 3px;
+  display: inline-block;
+}
+ 
+.countdown-time {
+  border-radius: 3px;
+  display: inline-block;
+}
+ 
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
 @media (max-width: 480px) {
 .form-div {
   align-self: center;
