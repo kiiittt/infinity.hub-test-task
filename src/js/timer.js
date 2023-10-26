@@ -1,7 +1,7 @@
 function getTimeRemaining(endtime) {
-  var t = Date.parse(endtime) - Date.parse(new Date());
-  var seconds = Math.floor((t / 1000) % 60);
-  var minutes = Math.floor((t / 1000 / 60) % 10);
+  const t = Date.parse(endtime) - Date.parse(new Date());
+  const seconds = Math.floor((t / 1000) % 60);
+  const minutes = Math.floor((t / 1000 / 60) % 10);
 
   return {
     total: t,
@@ -11,12 +11,12 @@ function getTimeRemaining(endtime) {
 }
 
 function initializeClock(id, endtime) {
-  var clock = document.getElementById(id);
-  var minutesSpan = clock.querySelector('.minutes');
-  var secondsSpan = clock.querySelector('.seconds');
+  const clock = document.getElementById(id);
+  const minutesSpan = clock.querySelector('.minutes');
+  const secondsSpan = clock.querySelector('.seconds');
 
   function updateClock() {
-    var t = getTimeRemaining(endtime);
+    const t = getTimeRemaining(endtime.toISOString()); 
 
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
@@ -27,8 +27,8 @@ function initializeClock(id, endtime) {
   }
 
   updateClock();
-  var timeinterval = setInterval(updateClock, 1000);
+  const timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
 initializeClock('countdown', deadline);
