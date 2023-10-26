@@ -1,0 +1,58 @@
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(46, 47, 66, 0.4);
+  }
+
+  .backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.modal-btn {
+    padding: 10px 20px;
+    width: 340px;
+    height: 60px;
+    background-color: #1d9fdb;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition-property: background-color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.03);
+}
+
+.modal-text{
+    width: 320px;
+}

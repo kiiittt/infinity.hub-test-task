@@ -115,6 +115,7 @@
     font-size: large;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
   }
 }
 
@@ -205,5 +206,6 @@
     font-size: large;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
   }
 }
