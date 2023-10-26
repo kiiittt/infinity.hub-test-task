@@ -10,25 +10,25 @@ function getTimeRemaining(endtime) {
   };
 }
 
-function initializeClock(id, endtime) {
+function initializeClock(id, endTime) {
   const clock = document.getElementById(id);
   const minutesSpan = clock.querySelector('.minutes');
   const secondsSpan = clock.querySelector('.seconds');
 
   function updateClock() {
-    const t = getTimeRemaining(endtime.toISOString()); 
+    const t = getTimeRemaining(endTime.toISOString()); 
 
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
     if (t.total <= 0) {
-      clearInterval(timeinterval);
+      clearInterval(timeInterval);
     }
   }
 
   updateClock();
-  const timeinterval = setInterval(updateClock, 1000);
+  const timeInterval = setInterval(updateClock, 1000);
 }
 
-const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-initializeClock('countdown', deadline);
+const deadLine = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+initializeClock('countdown', deadLine);
