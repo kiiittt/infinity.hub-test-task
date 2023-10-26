@@ -56,3 +56,8 @@
 .modal-text{
     width: 320px;
 }
+
+.modal-img{
+    height: 120px;
+    width: 120px;
+}
