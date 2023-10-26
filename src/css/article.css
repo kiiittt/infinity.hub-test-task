@@ -7,10 +7,22 @@
   margin-bottom: 0;
 }
 
+.title-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.data-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
 .title-text {
   margin-top: 0;
   align-self: flex-end;
   color: #858585;
+  margin: 0;
 }
 
 .total-black-text {

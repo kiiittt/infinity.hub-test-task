@@ -1,8 +1,9 @@
 .countdown-title {
-    margin-bottom: 0;
+  margin-bottom: 0;
   font-weight: 600;
   font-size: 30px;
-align-self: center;}
+  align-self: center;
+}
 
 .countdown {
   font-family: sans-serif;
@@ -12,18 +13,18 @@ align-self: center;}
   text-align: center;
   font-size: 30px;
 }
- 
+
 .countdown-number {
   padding: 20px 0px;
   border-radius: 3px;
   display: inline-block;
 }
- 
+
 .countdown-time {
   border-radius: 3px;
   display: inline-block;
 }
- 
+
 .countdown-text {
   display: block;
   padding-top: 5px;
@@ -31,179 +32,178 @@ align-self: center;}
 }
 
 @media (max-width: 480px) {
-.form-div {
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 10px;
-  width: 100vw;
-  background-color: #faebf4;
-}
+  .form-div {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 100vw;
+    background-color: #faebf4;
+  }
 
-.form-img{
+  .form-img {
     align-self: center;
     margin-top: 38px;
     height: 86px;
     width: 86px;
-}
+  }
 
-.form-title {
-  text-align: center;
-  font-weight: 400;
-  margin-bottom: 0;
-}
+  .form-title {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
 
-.blue-text {
-  text-align: center;
-  margin: 0;
-  color: blue;
-}
+  .blue-text {
+    text-align: center;
+    margin: 0;
+    color: blue;
+  }
 
-.gray-text {
-  text-align: center;
-  margin: 0;
-  color: darkgrey;
-  font-size: medium;
-}
+  .gray-text {
+    text-align: center;
+    margin: 0;
+    color: darkgrey;
+    font-size: medium;
+  }
 
-.dark-gray-txt {
-  text-align: center;
-  margin: 0;
-  width:90vw;
-  color: gray;
-  font-size: small;
-  font-weight: 600;
-}
+  .dark-gray-txt {
+    text-align: center;
+    margin: 0;
+    width: 90vw;
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+  }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  margin-top: 40px;
-}
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+  }
 
-.label {
-  display: flex;
-  flex-direction: column;
-  width:90vw;
-  font-size: larger;
-  font-weight: 600;
-  margin-bottom: 12px;
-}
+  .label {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
 
-.input {
-  margin-top: 10px;
-  padding-left: 16px;
-  width: 90vw;
-  height: 60px;
-  border-color: lightpink;
-  border-radius: 3px;
-}
+  .input {
+    margin-top: 10px;
+    padding-left: 16px;
+    width: 90vw;
+    height: 60px;
+    border-color: lightpink;
+    border-radius: 3px;
+  }
 
-.btn {
-  margin-top: 16px;
-  margin-bottom: 28px;
-  width:90vw;
-  height: 60px;
-  background-color: #1d9fdb;
-  color: white;
-  font-weight: bold;
-  font-size: large;
-  border-radius: 3px;
-  border: none;
-}
+  .btn {
+    margin-top: 16px;
+    margin-bottom: 28px;
+    width: 90vw;
+    height: 60px;
+    background-color: #1d9fdb;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 3px;
+    border: none;
+  }
 }
 
 @media (min-width: 480px) {
-.form-div {
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 10px;
-  width: 616px;
-  background-color: #faebf4;
-}
+  .form-div {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 616px;
+    background-color: #faebf4;
+  }
 
-.form-img{
+  .form-img {
     align-self: center;
     margin-top: 38px;
     height: 106px;
     width: 106px;
-}
+  }
 
-.form-title {
-  text-align: center;
-  font-weight: 400;
-  margin-bottom: 0;
-}
+  .form-title {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
 
-.blue-text {
-  align-self: center;
-  text-align: center;
-  margin: 0;
-  color: blue;
-}
+  .blue-text {
+    align-self: center;
+    text-align: center;
+    margin: 0;
+    color: blue;
+  }
 
-.gray-text {
-  align-self: center;
-  text-align: center;
-  margin: 0;
-  color: darkgrey;
-  font-size: medium;
-}
+  .gray-text {
+    align-self: center;
+    text-align: center;
+    margin: 0;
+    color: darkgrey;
+    font-size: medium;
+  }
 
-.dark-gray-txt {
-  align-self: center;
-  text-align: center;
-  margin: 0;
-  width: 480px;
-  color: gray;
-  font-size: small;
-  font-weight: 600;
-}
+  .dark-gray-txt {
+    align-self: center;
+    text-align: center;
+    margin: 0;
+    width: 480px;
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+  }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  margin-top: 40px;
-}
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40px;
+  }
 
-.label {
-  display: flex;
-  flex-direction: column;
-  width: 260px;
-  font-size: larger;
-  font-weight: 600;
-  margin-bottom: 12px;
-}
+  .label {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
 
-.input {
-  margin-top: 10px;
-  padding-left: 16px;
-  width: 340px;
-  height: 60px;
-  border-color: lightpink;
-  border-radius: 3px;
-}
+  .input {
+    margin-top: 10px;
+    padding-left: 16px;
+    width: 340px;
+    height: 60px;
+    border-color: lightpink;
+    border-radius: 3px;
+  }
 
-.btn {
-  margin-top: 16px;
-  margin-bottom: 28px;
-  width: 340px;
-  height: 60px;
-  background-color: #1d9fdb;
-  color: white;
-  font-weight: bold;
-  font-size: large;
-  border-radius: 3px;
-  border: none;
+  .btn {
+    margin-top: 16px;
+    margin-bottom: 28px;
+    width: 340px;
+    height: 60px;
+    background-color: #1d9fdb;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 3px;
+    border: none;
+  }
 }
-}
-
