@@ -1,4 +1,4 @@
-#untitle project
+#UNTITLE_PROJECT
 
 This project was written for a test task in Infinity.Hub
 
