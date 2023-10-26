@@ -1,19 +1,10 @@
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 200px;
-}
-
 .red-text {
   align-self: center;
   color: #ff0000;
 }
 
-.title{
-margin-bottom: 0;
+.title {
+  margin-bottom: 0;
 }
 
 .title-text {
@@ -31,23 +22,66 @@ margin-bottom: 0;
   font-weight: 500;
 }
 
-.screenshot {
-  align-self: center;
-  margin-top: 40px;
-  margin-bottom: 80px;
-  width: 735px;
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+  }
+
+  .screenshot {
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    width: 310px;
+  }
+
+  .images {
+    align-self: center;
+    width: 348px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .medicine {
+    width: 310px;
+    align-self: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
 }
 
-.images {
-  align-self: center;
-  width: 1024px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+@media (min-width: 480px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 200px;
+  }
 
-.medicine {
-  width: 693px;
-  align-self: center;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  .screenshot {
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    width: 735px;
+  }
+
+  .images {
+    align-self: center;
+    width: 1024px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .medicine {
+    width: 693px;
+    align-self: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
 }
