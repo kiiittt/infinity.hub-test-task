@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 200px;
+}
+
+.red-text {
+  align-self: center;
+  color: #ff0000;
+}
+
+.title{
+margin-bottom: 0;
+}
+
+.title-text {
+  margin-top: 0;
+  align-self: flex-end;
+  color: #858585;
+}
+
+.total-black-text {
+  font-weight: bold;
+  color: black;
+}
+
+.no-bold-text {
+  font-weight: 500;
+}
+
+.screenshot {
+  align-self: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 735px;
+}
+
+.images {
+  align-self: center;
+  width: 1024px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.medicine {
+  width: 693px;
+  align-self: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
