@@ -1,0 +1,2 @@
+!function(e,t){const n=document.getElementById(e),o=n.querySelector(".minutes"),s=n.querySelector(".seconds");function c(){const e=function(e){const t=Date.parse(e)-Date.parse(new Date),n=Math.floor(t/1e3%60);return{total:t,minutes:Math.floor(t/1e3/60%10),seconds:n}}(t.toISOString());o.innerHTML=("0"+e.minutes).slice(-2),s.innerHTML=("0"+e.seconds).slice(-2),e.total<=0&&clearInterval(r)}c();const r=setInterval(c,1e3)}("countdown",new Date(Date.parse(new Date)+1296e6));
+//# sourceMappingURL=index.6af3a71e.js.map
