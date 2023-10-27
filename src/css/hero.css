@@ -1,43 +1,36 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 @media (max-width: 480px) {
   .hero {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     background-image: url(../images/hero2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 400px;
-    width: 100%;
   }
 }
 
-@media(min-width: 480px) and (max-width: 1200px){
-  .hero{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+@media (min-width: 480px) and (max-width: 1200px) {
+  .hero {
     background-image: url(../images/hero.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 320px;
-    width: 100%;
-  } 
-  
+  }
 }
 
 @media (min-width: 1200px) {
   .hero {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     background-image: url(../images/hero.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 790px;
-    width: 100%;
   }
 }

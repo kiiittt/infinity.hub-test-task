@@ -1,9 +1,11 @@
 .red-text {
+  font-family: 'Montserrat', sans-serif;
   align-self: center;
   color: #ff0000;
 }
 
 .title {
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 0;
 }
 
@@ -14,17 +16,20 @@
 }
 
 .title-text {
+  font-family: 'Montserrat', sans-serif;
   align-self: flex-end;
   color: #858585;
   margin: 0;
 }
 
 .total-black-text {
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: black;
+  color: #222222;
 }
 
 .no-bold-text {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -59,7 +64,7 @@
   }
 }
 
-@media(min-width: 480px) and (max-width: 1200px){
+@media (min-width: 480px) and (max-width: 1200px) {
   .container {
     display: flex;
     justify-content: center;

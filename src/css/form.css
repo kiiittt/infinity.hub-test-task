@@ -7,7 +7,7 @@
 
 .countdown {
   font-family: sans-serif;
-  color: red;
+  color: #ff0000;
   display: inline-block;
   font-weight: 100;
   text-align: center;
@@ -29,6 +29,28 @@
   display: block;
   padding-top: 5px;
   font-size: 16px;
+}
+
+.blue-text {
+  text-align: center;
+  margin: 0;
+  color: #1823b8;
+}
+
+.gray-text {
+  text-align: center;
+  margin: 0;
+  color: #a3a0a0;
+  font-size: medium;
+}
+
+.dark-gray-txt {
+  text-align: center;
+  margin: 0;
+  width: 90vw;
+  color: #8a8888;
+  font-size: small;
+  font-weight: 600;
 }
 
 @media (max-width: 480px) {
@@ -57,26 +79,8 @@
     margin-bottom: 0;
   }
 
-  .blue-text {
-    text-align: center;
-    margin: 0;
-    color: blue;
-  }
-
-  .gray-text {
-    text-align: center;
-    margin: 0;
-    color: darkgrey;
-    font-size: medium;
-  }
-
   .dark-gray-txt {
-    text-align: center;
-    margin: 0;
     width: 90vw;
-    color: gray;
-    font-size: small;
-    font-weight: 600;
   }
 
   .form {
@@ -100,7 +104,7 @@
     padding-left: 16px;
     width: 90vw;
     height: 60px;
-    border-color: lightpink;
+    border-color: #ebdde2;
     border-radius: 3px;
   }
 
@@ -110,7 +114,7 @@
     width: 90vw;
     height: 60px;
     background-color: #1d9fdb;
-    color: white;
+    color: #fcfafb;
     font-weight: bold;
     font-size: large;
     border-radius: 3px;
@@ -145,29 +149,8 @@
     margin-bottom: 0;
   }
 
-  .blue-text {
-    align-self: center;
-    text-align: center;
-    margin: 0;
-    color: blue;
-  }
-
-  .gray-text {
-    align-self: center;
-    text-align: center;
-    margin: 0;
-    color: darkgrey;
-    font-size: medium;
-  }
-
   .dark-gray-txt {
-    align-self: center;
-    text-align: center;
-    margin: 0;
     width: 480px;
-    color: gray;
-    font-size: small;
-    font-weight: 600;
   }
 
   .form {
@@ -191,7 +174,7 @@
     padding-left: 16px;
     width: 340px;
     height: 60px;
-    border-color: lightpink;
+    border-color: #faebf4;
     border-radius: 3px;
   }
 
@@ -201,7 +184,7 @@
     width: 340px;
     height: 60px;
     background-color: #1d9fdb;
-    color: white;
+    color: #fcfafb;
     font-weight: bold;
     font-size: large;
     border-radius: 3px;
